@@ -79,7 +79,7 @@ public abstract class AbstractClinicServiceTests {
     public void shouldInsertOwner() {
         Collection<Owner> owners = this.clinicService.findOwnerByLastName("Schultz");
         int found = owners.size();
-
+        int atu = 5;//to delete 
         Owner owner = new Owner();
         owner.setFirstName("Sam");
         owner.setLastName("Schultz");
